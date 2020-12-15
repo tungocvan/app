@@ -1,0 +1,46 @@
+#sep-bottom-6 .bg-wrap {
+    background-color: rgba(255, 255, 255, 0);
+}     @media(min-width: 992px){
+    nav.fixed-top:not(.show-menu) .bg-wrap{
+        opacity: 0 !important;
+    }
+}
+nav.sticky-top.fixed-top:not(.show-menu) .bg-wrap, nav.fixed-top.sticky-top:not(.show-menu) .bg-wrap{
+   opacity: 1 !important;
+}
+#nav-logo-menu-btn .bg {}
+
+#header-text-carousel .bg-wrap {
+	background: #ffffef;
+}#desc-tabs-2 ul.nav-tabs .nav-item{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto !important;
+    text-align: center;
+}
+#desc-tabs-2 .nav-tabs a.nav-link:hover, #desc-tabs-2 .nav-tabs a.nav-link.active{
+    border-color: #007bff;
+}
+#desc-tabs-2 .bg-wrap {
+	background: #8aafbd;
+}
+#benefits-3col-7 .bg {
+	background-position: center center;
+	background-repeat: No-repeat;
+	background-size: cover;
+	background-image: url('../images/user/1007/backgroundgift83.png');
+}#sep-bottom-6--0 .bg-wrap {
+    background-color: rgba(255, 255, 255, 0);
+}     #testimonial-carousel-2 .bg-wrap {}
+
+
+#footer-text-4 .bg-wrap {
+    background: #b35585;
+}
+
+.action-btn-right-2{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1001190 !important;
+}

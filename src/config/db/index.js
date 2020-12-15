@@ -1,10 +1,14 @@
 // https://viblo.asia/p/dua-du-lieu-len-may-voi-mongodb-atlas-aWj53L1YK6m
+// https://www.thepolyglotdeveloper.com/2019/01/getting-started-mongodb-docker-container-deployment/
+//https://phoenixnap.com/kb/mysql-docker-container
+//https://techfinally.com/huong-dan-cai-dat-mysql-va-phpmyadmin-tren-docker/
 const mongoose = require('mongoose');
 async function connect() {
     try {        
         //let url = 'mongodb://localhost:27017/f8_education_dev';
         //let url = 'mongodb+srv://tungocvan1:9603597@cluster0.wym7u.gcp.mongodb.net/test';
-        let url = 'mongodb://127.0.0.1:27017';
+        //let url = 'mongodb://127.0.0.1:27017/test';
+        let url = 'mongodb://127.0.0.1:27017/test';
         await mongoose.connect(url, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
