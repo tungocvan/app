@@ -1,3 +1,11 @@
 #desc-tabs-2 img + img {
     margin-top: 15px;
 }
+.info {
+    background: white;
+    padding: 5px;
+    font-size: 14px;
+}
+.info p{
+    margin: 0;
+}

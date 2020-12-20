@@ -4,7 +4,10 @@ class SiteController {
   // [GET] /
   index(req, res) {
     res.render('home',{layout : 'relx'});
-  }
+  } 
+  postDetail(req, res) {
+    res.render('postDetail',{layout : 'relx'});
+  } 
 
   // [GET] /search
   search(req, res) {
